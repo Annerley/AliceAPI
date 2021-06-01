@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: AliceAPI.DB
+  commentId: T:AliceAPI.DB
+  id: DB
+  parent: AliceAPI
+  children:
+  - AliceAPI.DB.closeConnection
+  - AliceAPI.DB.getConnection
+  - AliceAPI.DB.openConnection
+  langs:
+  - csharp
+  - vb
+  name: DB
+  nameWithType: DB
+  fullName: AliceAPI.DB
+  type: Class
+  source:
+    remote:
+      path: DB.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: DB
+    path: DB.cs
+    startLine: 8
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  syntax:
+    content: public class DB
+    content.vb: Public Class DB
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AliceAPI.DB.openConnection
+  commentId: M:AliceAPI.DB.openConnection
+  id: openConnection
+  parent: AliceAPI.DB
+  langs:
+  - csharp
+  - vb
+  name: openConnection()
+  nameWithType: DB.openConnection()
+  fullName: AliceAPI.DB.openConnection()
+  type: Method
+  source:
+    remote:
+      path: DB.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: openConnection
+    path: DB.cs
+    startLine: 20
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  summary: Opens the connection.
+  example: []
+  syntax:
+    content: public void openConnection()
+    content.vb: Public Sub openConnection
+  overload: AliceAPI.DB.openConnection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AliceAPI.DB.closeConnection
+  commentId: M:AliceAPI.DB.closeConnection
+  id: closeConnection
+  parent: AliceAPI.DB
+  langs:
+  - csharp
+  - vb
+  name: closeConnection()
+  nameWithType: DB.closeConnection()
+  fullName: AliceAPI.DB.closeConnection()
+  type: Method
+  source:
+    remote:
+      path: DB.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: closeConnection
+    path: DB.cs
+    startLine: 27
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  summary: Closes the connection.
+  example: []
+  syntax:
+    content: public void closeConnection()
+    content.vb: Public Sub closeConnection
+  overload: AliceAPI.DB.closeConnection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AliceAPI.DB.getConnection
+  commentId: M:AliceAPI.DB.getConnection
+  id: getConnection
+  parent: AliceAPI.DB
+  langs:
+  - csharp
+  - vb
+  name: getConnection()
+  nameWithType: DB.getConnection()
+  fullName: AliceAPI.DB.getConnection()
+  type: Method
+  source:
+    remote:
+      path: DB.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: getConnection
+    path: DB.cs
+    startLine: 35
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  summary: Gets the connection.
+  example: []
+  syntax:
+    content: public MySqlConnection getConnection()
+    return:
+      type: MySql.Data.MySqlClient.MySqlConnection
+      description: return connection to DB
+    content.vb: Public Function getConnection As MySqlConnection
+  overload: AliceAPI.DB.getConnection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AliceAPI
+  commentId: N:AliceAPI
+  name: AliceAPI
+  nameWithType: AliceAPI
+  fullName: AliceAPI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AliceAPI.DB.openConnection*
+  commentId: Overload:AliceAPI.DB.openConnection
+  name: openConnection
+  nameWithType: DB.openConnection
+  fullName: AliceAPI.DB.openConnection
+- uid: AliceAPI.DB.closeConnection*
+  commentId: Overload:AliceAPI.DB.closeConnection
+  name: closeConnection
+  nameWithType: DB.closeConnection
+  fullName: AliceAPI.DB.closeConnection
+- uid: AliceAPI.DB.getConnection*
+  commentId: Overload:AliceAPI.DB.getConnection
+  name: getConnection
+  nameWithType: DB.getConnection
+  fullName: AliceAPI.DB.getConnection
+- uid: MySql.Data.MySqlClient.MySqlConnection
+  commentId: T:MySql.Data.MySqlClient.MySqlConnection
+  parent: MySql.Data.MySqlClient
+  isExternal: true
+  name: MySqlConnection
+  nameWithType: MySqlConnection
+  fullName: MySql.Data.MySqlClient.MySqlConnection
+- uid: MySql.Data.MySqlClient
+  commentId: N:MySql.Data.MySqlClient
+  isExternal: true
+  name: MySql.Data.MySqlClient
+  nameWithType: MySql.Data.MySqlClient
+  fullName: MySql.Data.MySqlClient

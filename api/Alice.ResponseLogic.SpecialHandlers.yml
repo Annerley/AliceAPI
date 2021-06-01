@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Alice.ResponseLogic.SpecialHandlers
+  commentId: N:Alice.ResponseLogic.SpecialHandlers
+  id: Alice.ResponseLogic.SpecialHandlers
+  children:
+  - Alice.ResponseLogic.SpecialHandlers.HelloHandler
+  langs:
+  - csharp
+  - vb
+  name: Alice.ResponseLogic.SpecialHandlers
+  nameWithType: Alice.ResponseLogic.SpecialHandlers
+  fullName: Alice.ResponseLogic.SpecialHandlers
+  type: Namespace
+  assemblies:
+  - AliceAPI
+references:
+- uid: Alice.ResponseLogic.SpecialHandlers.HelloHandler
+  commentId: T:Alice.ResponseLogic.SpecialHandlers.HelloHandler
+  name: HelloHandler
+  nameWithType: HelloHandler
+  fullName: Alice.ResponseLogic.SpecialHandlers.HelloHandler

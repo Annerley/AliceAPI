@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Alice
+  commentId: N:Alice
+  id: Alice
+  children:
+  - Alice.Program
+  - Alice.Startup
+  langs:
+  - csharp
+  - vb
+  name: Alice
+  nameWithType: Alice
+  fullName: Alice
+  type: Namespace
+  assemblies:
+  - AliceAPI
+references:
+- uid: Alice.Program
+  commentId: T:Alice.Program
+  name: Program
+  nameWithType: Program
+  fullName: Alice.Program
+- uid: Alice.Startup
+  commentId: T:Alice.Startup
+  name: Startup
+  nameWithType: Startup
+  fullName: Alice.Startup

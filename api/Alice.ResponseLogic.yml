@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Alice.ResponseLogic
+  commentId: N:Alice.ResponseLogic
+  id: Alice.ResponseLogic
+  children:
+  - Alice.ResponseLogic.AliceHandler
+  langs:
+  - csharp
+  - vb
+  name: Alice.ResponseLogic
+  nameWithType: Alice.ResponseLogic
+  fullName: Alice.ResponseLogic
+  type: Namespace
+  assemblies:
+  - AliceAPI
+references:
+- uid: Alice.ResponseLogic.AliceHandler
+  commentId: T:Alice.ResponseLogic.AliceHandler
+  parent: Alice.ResponseLogic
+  name: AliceHandler
+  nameWithType: AliceHandler
+  fullName: Alice.ResponseLogic.AliceHandler
+- uid: Alice.ResponseLogic
+  commentId: N:Alice.ResponseLogic
+  name: Alice.ResponseLogic
+  nameWithType: Alice.ResponseLogic
+  fullName: Alice.ResponseLogic

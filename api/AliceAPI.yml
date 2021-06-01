@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: AliceAPI
+  commentId: N:AliceAPI
+  id: AliceAPI
+  children:
+  - AliceAPI.DB
+  - AliceAPI.Request
+  langs:
+  - csharp
+  - vb
+  name: AliceAPI
+  nameWithType: AliceAPI
+  fullName: AliceAPI
+  type: Namespace
+  assemblies:
+  - AliceAPI
+references:
+- uid: AliceAPI.DB
+  commentId: T:AliceAPI.DB
+  name: DB
+  nameWithType: DB
+  fullName: AliceAPI.DB
+- uid: AliceAPI.Request
+  commentId: T:AliceAPI.Request
+  name: Request
+  nameWithType: Request
+  fullName: AliceAPI.Request

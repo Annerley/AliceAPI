@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Alice.Controllers
+  commentId: N:Alice.Controllers
+  id: Alice.Controllers
+  children:
+  - Alice.Controllers.AliceController
+  langs:
+  - csharp
+  - vb
+  name: Alice.Controllers
+  nameWithType: Alice.Controllers
+  fullName: Alice.Controllers
+  type: Namespace
+  assemblies:
+  - AliceAPI
+references:
+- uid: Alice.Controllers.AliceController
+  commentId: T:Alice.Controllers.AliceController
+  name: AliceController
+  nameWithType: AliceController
+  fullName: Alice.Controllers.AliceController
