@@ -287,5 +287,11 @@ namespace AliceAPI
             //в процессе
             return "";
         }
+
+        public string quantityLessonsWeek(string weekNumber, string student)
+        {
+            return "";
+        }
+        
     }
 }
