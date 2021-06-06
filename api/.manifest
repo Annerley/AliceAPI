@@ -24,8 +24,15 @@
   "AliceAPI.DB.getConnection": "AliceAPI.DB.yml",
   "AliceAPI.DB.openConnection": "AliceAPI.DB.yml",
   "AliceAPI.Request": "AliceAPI.Request.yml",
+  "AliceAPI.Request.breakFinish(System.String)": "AliceAPI.Request.yml",
+  "AliceAPI.Request.breakStart(System.String)": "AliceAPI.Request.yml",
+  "AliceAPI.Request.breakStartAndFinish(System.String)": "AliceAPI.Request.yml",
+  "AliceAPI.Request.firstLesson(System.String,System.String)": "AliceAPI.Request.yml",
+  "AliceAPI.Request.quantityLessonsWeek(System.String,System.String)": "AliceAPI.Request.yml",
   "AliceAPI.Request.quantityOfLessonsDay(System.String,System.String)": "AliceAPI.Request.yml",
   "AliceAPI.Request.roomForLesson(System.String,System.String,System.String)": "AliceAPI.Request.yml",
+  "AliceAPI.Request.schedule": "AliceAPI.Request.yml",
   "AliceAPI.Request.scheduleForDay(System.String,System.String)": "AliceAPI.Request.yml",
-  "AliceAPI.Request.scheduleForOneLesson(System.String,System.String,System.String)": "AliceAPI.Request.yml"
+  "AliceAPI.Request.scheduleForOneLesson(System.String,System.String,System.String)": "AliceAPI.Request.yml",
+  "AliceAPI.Request.windowScheduleWeek(System.String,System.String)": "AliceAPI.Request.yml"
 }

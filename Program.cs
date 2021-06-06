@@ -14,9 +14,9 @@ namespace Alice
     {
         public static void Main(string[] args)
         {
-            Request rq = new Request();
+            DB db = new DB();
+            db.openConnection();
             
-            Console.WriteLine(rq.scheduleForOneLesson("Среда","1", "Лапутина Дарья Кирилловна"));
             
             CreateHostBuilder(args).Build().Run();
         }

@@ -5,10 +5,17 @@ items:
   id: Request
   parent: AliceAPI
   children:
+  - AliceAPI.Request.breakFinish(System.String)
+  - AliceAPI.Request.breakStart(System.String)
+  - AliceAPI.Request.breakStartAndFinish(System.String)
+  - AliceAPI.Request.firstLesson(System.String,System.String)
+  - AliceAPI.Request.quantityLessonsWeek(System.String,System.String)
   - AliceAPI.Request.quantityOfLessonsDay(System.String,System.String)
   - AliceAPI.Request.roomForLesson(System.String,System.String,System.String)
+  - AliceAPI.Request.schedule
   - AliceAPI.Request.scheduleForDay(System.String,System.String)
   - AliceAPI.Request.scheduleForOneLesson(System.String,System.String,System.String)
+  - AliceAPI.Request.windowScheduleWeek(System.String,System.String)
   langs:
   - csharp
   - vb
@@ -216,6 +223,254 @@ items:
       description: Return quantity in str format.
     content.vb: Public Function quantityOfLessonsDay(weekDay As String, student As String) As String
   overload: AliceAPI.Request.quantityOfLessonsDay*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AliceAPI.Request.firstLesson(System.String,System.String)
+  commentId: M:AliceAPI.Request.firstLesson(System.String,System.String)
+  id: firstLesson(System.String,System.String)
+  parent: AliceAPI.Request
+  langs:
+  - csharp
+  - vb
+  name: firstLesson(String, String)
+  nameWithType: Request.firstLesson(String, String)
+  fullName: AliceAPI.Request.firstLesson(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Request.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: firstLesson
+    path: Request.cs
+    startLine: 195
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  syntax:
+    content: public string firstLesson(string weekDay, string student)
+    parameters:
+    - id: weekDay
+      type: System.String
+    - id: student
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function firstLesson(weekDay As String, student As String) As String
+  overload: AliceAPI.Request.firstLesson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AliceAPI.Request.breakStart(System.String)
+  commentId: M:AliceAPI.Request.breakStart(System.String)
+  id: breakStart(System.String)
+  parent: AliceAPI.Request
+  langs:
+  - csharp
+  - vb
+  name: breakStart(String)
+  nameWithType: Request.breakStart(String)
+  fullName: AliceAPI.Request.breakStart(System.String)
+  type: Method
+  source:
+    remote:
+      path: Request.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: breakStart
+    path: Request.cs
+    startLine: 232
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  syntax:
+    content: public string breakStart(string lessonNumber)
+    parameters:
+    - id: lessonNumber
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function breakStart(lessonNumber As String) As String
+  overload: AliceAPI.Request.breakStart*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AliceAPI.Request.breakStartAndFinish(System.String)
+  commentId: M:AliceAPI.Request.breakStartAndFinish(System.String)
+  id: breakStartAndFinish(System.String)
+  parent: AliceAPI.Request
+  langs:
+  - csharp
+  - vb
+  name: breakStartAndFinish(String)
+  nameWithType: Request.breakStartAndFinish(String)
+  fullName: AliceAPI.Request.breakStartAndFinish(System.String)
+  type: Method
+  source:
+    remote:
+      path: Request.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: breakStartAndFinish
+    path: Request.cs
+    startLine: 244
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  syntax:
+    content: public string breakStartAndFinish(string lessonNumber)
+    parameters:
+    - id: lessonNumber
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function breakStartAndFinish(lessonNumber As String) As String
+  overload: AliceAPI.Request.breakStartAndFinish*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AliceAPI.Request.breakFinish(System.String)
+  commentId: M:AliceAPI.Request.breakFinish(System.String)
+  id: breakFinish(System.String)
+  parent: AliceAPI.Request
+  langs:
+  - csharp
+  - vb
+  name: breakFinish(String)
+  nameWithType: Request.breakFinish(String)
+  fullName: AliceAPI.Request.breakFinish(System.String)
+  type: Method
+  source:
+    remote:
+      path: Request.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: breakFinish
+    path: Request.cs
+    startLine: 255
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  syntax:
+    content: public string breakFinish(string lessonNumber)
+    parameters:
+    - id: lessonNumber
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function breakFinish(lessonNumber As String) As String
+  overload: AliceAPI.Request.breakFinish*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AliceAPI.Request.schedule
+  commentId: M:AliceAPI.Request.schedule
+  id: schedule
+  parent: AliceAPI.Request
+  langs:
+  - csharp
+  - vb
+  name: schedule()
+  nameWithType: Request.schedule()
+  fullName: AliceAPI.Request.schedule()
+  type: Method
+  source:
+    remote:
+      path: Request.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: schedule
+    path: Request.cs
+    startLine: 266
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  syntax:
+    content: public string schedule()
+    return:
+      type: System.String
+    content.vb: Public Function schedule As String
+  overload: AliceAPI.Request.schedule*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AliceAPI.Request.windowScheduleWeek(System.String,System.String)
+  commentId: M:AliceAPI.Request.windowScheduleWeek(System.String,System.String)
+  id: windowScheduleWeek(System.String,System.String)
+  parent: AliceAPI.Request
+  langs:
+  - csharp
+  - vb
+  name: windowScheduleWeek(String, String)
+  nameWithType: Request.windowScheduleWeek(String, String)
+  fullName: AliceAPI.Request.windowScheduleWeek(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Request.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: windowScheduleWeek
+    path: Request.cs
+    startLine: 284
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  syntax:
+    content: public string windowScheduleWeek(string weekDay, string student)
+    parameters:
+    - id: weekDay
+      type: System.String
+    - id: student
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function windowScheduleWeek(weekDay As String, student As String) As String
+  overload: AliceAPI.Request.windowScheduleWeek*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AliceAPI.Request.quantityLessonsWeek(System.String,System.String)
+  commentId: M:AliceAPI.Request.quantityLessonsWeek(System.String,System.String)
+  id: quantityLessonsWeek(System.String,System.String)
+  parent: AliceAPI.Request
+  langs:
+  - csharp
+  - vb
+  name: quantityLessonsWeek(String, String)
+  nameWithType: Request.quantityLessonsWeek(String, String)
+  fullName: AliceAPI.Request.quantityLessonsWeek(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Request.cs
+      branch: master
+      repo: https://github.com/Annerley/AliceAPI.git
+    id: quantityLessonsWeek
+    path: Request.cs
+    startLine: 290
+  assemblies:
+  - AliceAPI
+  namespace: AliceAPI
+  syntax:
+    content: public string quantityLessonsWeek(string weekNumber, string student)
+    parameters:
+    - id: weekNumber
+      type: System.String
+    - id: student
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function quantityLessonsWeek(weekNumber As String, student As String) As String
+  overload: AliceAPI.Request.quantityLessonsWeek*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -545,3 +800,38 @@ references:
   name: quantityOfLessonsDay
   nameWithType: Request.quantityOfLessonsDay
   fullName: AliceAPI.Request.quantityOfLessonsDay
+- uid: AliceAPI.Request.firstLesson*
+  commentId: Overload:AliceAPI.Request.firstLesson
+  name: firstLesson
+  nameWithType: Request.firstLesson
+  fullName: AliceAPI.Request.firstLesson
+- uid: AliceAPI.Request.breakStart*
+  commentId: Overload:AliceAPI.Request.breakStart
+  name: breakStart
+  nameWithType: Request.breakStart
+  fullName: AliceAPI.Request.breakStart
+- uid: AliceAPI.Request.breakStartAndFinish*
+  commentId: Overload:AliceAPI.Request.breakStartAndFinish
+  name: breakStartAndFinish
+  nameWithType: Request.breakStartAndFinish
+  fullName: AliceAPI.Request.breakStartAndFinish
+- uid: AliceAPI.Request.breakFinish*
+  commentId: Overload:AliceAPI.Request.breakFinish
+  name: breakFinish
+  nameWithType: Request.breakFinish
+  fullName: AliceAPI.Request.breakFinish
+- uid: AliceAPI.Request.schedule*
+  commentId: Overload:AliceAPI.Request.schedule
+  name: schedule
+  nameWithType: Request.schedule
+  fullName: AliceAPI.Request.schedule
+- uid: AliceAPI.Request.windowScheduleWeek*
+  commentId: Overload:AliceAPI.Request.windowScheduleWeek
+  name: windowScheduleWeek
+  nameWithType: Request.windowScheduleWeek
+  fullName: AliceAPI.Request.windowScheduleWeek
+- uid: AliceAPI.Request.quantityLessonsWeek*
+  commentId: Overload:AliceAPI.Request.quantityLessonsWeek
+  name: quantityLessonsWeek
+  nameWithType: Request.quantityLessonsWeek
+  fullName: AliceAPI.Request.quantityLessonsWeek

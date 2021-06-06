@@ -14,7 +14,7 @@ namespace AliceAPI
         /// <returns>return striing</returns>
         private static string getcon()
         {
-            return "server=localhost;port=3307;charset=utf8;username=monty;password=some_pass;database=schedule";
+            return "server=84.201.140.246;port=3306;charset=utf8;username=alice;password=Alice_123;";
         }
 
         /// <summary>Opens the connection.</summary>
